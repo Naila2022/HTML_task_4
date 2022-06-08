@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+#Header{
+    background-color: burlywood;
+    overflow: auto;
+    padding: 25px 4rem;
+    width: 100%;
+    position: fixed;
+}
+
+#Header .left{
+    width: 15%;
+    float: left;
+}
+
+#Header .right{
+    float: right;
+    margin-top: 7px;
+
+}
+
+#Header .right a{
+    float: right;
+    margin-left: 20px;
+    color: #fff;
+}
+
+#First{
+background-image: url(https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg);
+background-size: cover;
+background-position: center;
+text-align: center;
+padding: 14rem 0;
+}
+#First h3{
+    font-size: 36px;
+    color: #fff;
+}
+
+#First h1{
+    font-size: 72px;
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+#First a{
+    background-color: #ffc800;
+    padding: 20px 40px;
+    font-size: 18px;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+#Service{
+    padding: 6rem 4rem;
+    overflow: auto;
+}
+
+.service-text, .third-text{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.service-all .box{
+    width: calc(100%/3);
+    float: left;
+    text-align: center;
+    padding: 20px;
+}
+
+.service-all .box svg{
+    height: 6rem;
+    background-color: #ffc800;
+    color: #fff;    
+}
+
+.service-all .box h3{
+    margin: 10px 0;
+}
